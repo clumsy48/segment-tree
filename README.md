@@ -23,5 +23,12 @@ Example : A[] = {1,4,2,6,9}
           Not good if update is comparitively larger than retrieve
           ```
 
+###       Method 3  
+          **SEGMENT TREE**
+          retrieval : O(log n)  
+          update    : O(log n)
+
+                    
+
 
 
