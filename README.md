@@ -25,6 +25,17 @@ Example : A[] = {1,4,2,6,9}
           retrieval : O(log n)  
           update    : O(log n)
           
+1. Size of Segment Tree
+
+  ![Alt Text](https://github.com/clumsy48/segment-tree/blob/theory/segment_tree.jpg)
+```
+total size = 2^0 + 2^1 + 2^2 + .... + 2^ceil( logn(n) )  
+           = ( 1 * ( 2^ (ceil( logn(n) ) + 1) - 1) ) / (2 -1)
+           = 2 * 2^ (ceil( logn(n) )) 
+           ~ 4n
+ 
+```
+          
 
           
                     
